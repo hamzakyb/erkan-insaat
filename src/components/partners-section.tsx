@@ -1,10 +1,12 @@
 "use client";
 
+import React from "react";
+
 interface Partner {
   name: string;
   type: string;
   image?: string;
-  svg?: JSX.Element;
+  svg?: React.ReactNode;
 }
 
 const partners: Partner[] = [
