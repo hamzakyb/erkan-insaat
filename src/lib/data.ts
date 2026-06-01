@@ -1,4 +1,4 @@
-// Project data for Saras İnşaat
+// Project data for Erkan İnşaat
 export interface Project {
   id: number;
   title: string;
@@ -12,7 +12,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Saras Towers Rezidans",
+    title: "Erkan Towers Rezidans",
     location: "İstanbul, Ataşehir",
     category: "Konut",
     image: "/images/project-1.png",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Saras Sağlık Kampüsü",
+    title: "Erkan Sağlık Kampüsü",
     location: "İzmir, Bornova",
     category: "Kamu",
     image: "/images/project-4.png",
@@ -99,7 +99,7 @@ export const expertiseAreas: ExpertiseArea[] = [
     description: "Rezidanslardan villalara, modern yaşam alanları tasarlıyor ve inşa ediyoruz. Her projede konfor, estetik ve dayanıklılığı bir arada sunuyoruz.",
     icon: "Building2" as const,
     imageUrl: "/images/project-1.png",
-    longDescription: "Saras İnşaat olarak, konut projelerimizde sadece beton ve çelikten ibaret yapılar değil, içinde huzur ve güvenle yaşanacak yuvalar inşa ediyoruz. Modern mimari çizgileri, fonksiyonel iç mekân çözümleri ve çevre dostu yaklaşımları bir araya getirerek lüks rezidanslardan butik villalara kadar geniş bir yelpazede yüksek standartlı yaşam alanları üretiyoruz. Tüm projelerimiz deprem yönetmeliğine %100 uygun, yüksek kaliteli ısı ve ses yalıtımı ile akıllı ev otomasyon teknolojileriyle donatılmaktadır.",
+    longDescription: "Erkan İnşaat olarak, konut projelerimizde sadece beton ve çelikten ibaret yapılar değil, içinde huzur ve güvenle yaşanacak yuvalar inşa ediyoruz. Modern mimari çizgileri, fonksiyonel iç mekân çözümleri ve çevre dostu yaklaşımları bir araya getirerek lüks rezidanslardan butik villalara kadar geniş bir yelpazede yüksek standartlı yaşam alanları üretiyoruz. Tüm projelerimiz deprem yönetmeliğine %100 uygun, yüksek kaliteli ısı ve ses yalıtımı ile akıllı ev otomasyon teknolojileriyle donatılmaktadır.",
     features: [
       "Deprem Yönetmeliğine Tam Uygun Statik Altyapı",
       "Akıllı Ev Otomasyonu ve Güvenlik Sistemleri",
@@ -178,7 +178,7 @@ export const expertiseAreas: ExpertiseArea[] = [
     description: "Kule vinç kiralama, hidrolik beton dağıtıcı ve sabit beton pompası ağır şantiye makinelerini 81 ilde kurulum ve operatör desteğiyle sunuyoruz.",
     icon: "Wrench" as const,
     imageUrl: "/images/project-5.png",
-    longDescription: "Saras Group bünyesinde, inşaat ve altyapı projelerinin en kritik mekanik ihtiyaçlarından olan kule vinç, hidrolik beton dağıtıcı ve sabit beton pompası gibi ağır iş makinelerinin kiralama ve kurulum hizmetlerini sunuyoruz. Türkiye'nin 81 ilinde aktif lojistik ağımız, profesyonel operatör kadromuz ve 7/24 teknik bakım servisimiz ile projelerinize kesintisiz güç katıyoruz. Tüm filomuz düzenli olarak periyodik güvenlik denetimlerinden geçmekte, uluslararası standartlarda sertifikalı ekipmanlar ve yüksek tonaj kapasiteleriyle şantiyelerinizdeki verimliliği en üst seviyeye taşımaktadır.",
+    longDescription: "Erkan Group bünyesinde, inşaat ve altyapı projelerinin en kritik mekanik ihtiyaçlarından olan kule vinç, hidrolik beton dağıtıcı ve sabit beton pompası gibi ağır iş makinelerinin kiralama ve kurulum hizmetlerini sunuyoruz. Türkiye'nin 81 ilinde aktif lojistik ağımız, profesyonel operatör kadromuz ve 7/24 teknik bakım servisimiz ile projelerinize kesintisiz güç katıyoruz. Tüm filomuz düzenli olarak periyodik güvenlik denetimlerinden geçmekte, uluslararası standartlarda sertifikalı ekipmanlar ve yüksek tonaj kapasiteleriyle şantiyelerinizdeki verimliliği en üst seviyeye taşımaktadır.",
     features: [
       "Türkiye'nin 81 İlinde Aktif Kurulum ve Lojistik Hizmeti",
       "Yüksek Tonajlı ve Çeşitli Yükseklik Kapasiteli Kule Vinç Filosu",
@@ -193,7 +193,7 @@ export const expertiseAreas: ExpertiseArea[] = [
       },
       {
         question: "Ekipmanların periyodik bakımı ve arıza durumunda teknik servis desteği nasıl sağlanıyor?",
-        answer: "Kiraladığımız tüm ekipmanların periyodik bakımları Saras teknik personeli tarafından sahada düzenli olarak yapılır. Olası arıza durumlarında, 81 ildeki teknik servis ağımız sayesinde en geç 24 saat içinde müdahale edilerek şantiyenizin iş kaybı yaşamasının önüne geçilir."
+        answer: "Kiraladığımız tüm ekipmanların periyodik bakımları Erkan teknik personeli tarafından sahada düzenli olarak yapılır. Olası arıza durumlarında, 81 ildeki teknik servis ağımız sayesinde en geç 24 saat içinde müdahale edilerek şantiyenizin iş kaybı yaşamasının önüne geçilir."
       }
     ]
   }
@@ -214,7 +214,7 @@ export const testimonials: Testimonial[] = [
     name: "Ahmet Yılmaz",
     role: "Yönetim Kurulu Başkanı",
     company: "Kristal Holding",
-    content: "Saras İnşaat ile gerçekleştirdiğimiz Kristal AVM projemiz, öngörülen bütçe ve zaman diliminde kusursuz bir şekilde tamamlandı. Mühendislik yaklaşımları ve detaylara verdikleri önem takdire şayan.",
+    content: "Erkan İnşaat ile gerçekleştirdiğimiz Kristal AVM projemiz, öngörülen bütçe ve zaman diliminde kusursuz bir şekilde tamamlandı. Mühendislik yaklaşımları ve detaylara verdikleri önem takdire şayan.",
     rating: 5,
   },
   {
@@ -222,7 +222,7 @@ export const testimonials: Testimonial[] = [
     name: "Zeynep Demir",
     role: "Yatırım Direktörü",
     company: "Vesta Gayrimenkul",
-    content: "Konut projelerimizdeki iş ortaklığımızda Saras İnşaat'ın sergilediği profesyonellik, dürüstlük ve teknik beceri sayesinde tüm hedeflerimize ulaştık. Kesinlikle güvenilir bir çözüm ortağı.",
+    content: "Konut projelerimizdeki iş ortaklığımızda Erkan İnşaat'ın sergilediği profesyonellik, dürüstlük ve teknik beceri sayesinde tüm hedeflerimize ulaştık. Kesinlikle güvenilir bir çözüm ortağı.",
     rating: 5,
   },
   {
@@ -230,7 +230,7 @@ export const testimonials: Testimonial[] = [
     name: "Mehmet Kaya",
     role: "Genel Müdür",
     company: "Lojistik Park A.Ş.",
-    content: "Gebze'deki endüstriyel lojistik merkezimizin çelik konstrüksiyon işlerini üstlenen Saras ekibi, zorlu hava koşullarına ve kısa süreye rağmen inanılmaz bir disiplinle çalışarak projeyi zamanında teslim etti.",
+    content: "Gebze'deki endüstriyel lojistik merkezimizin çelik konstrüksiyon işlerini üstlenen Erkan ekibi, zorlu hava koşullarına ve kısa süreye rağmen inanılmaz bir disiplinle çalışarak projeyi zamanında teslim etti.",
     rating: 5,
   },
 ];

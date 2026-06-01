@@ -26,7 +26,7 @@ export default function TestimonialsSection() {
             // YORUMLARIMIZ
           </span>
           <h2 className="font-heading text-3xl lg:text-5xl font-black text-navy tracking-tight leading-tight">
-            Müşterilerimizin Saras Hakkındaki Değerlendirmeleri
+            Müşterilerimizin Erkan Hakkındaki Değerlendirmeleri
           </h2>
         </div>
 

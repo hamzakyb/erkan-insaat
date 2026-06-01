@@ -44,13 +44,13 @@ const certificates = [
 
 const team = [
   {
-    name: "Halil Saras",
+    name: "Halil Erkan",
     role: "Yönetim Kurulu Başkanı / İnşaat Mühendisi",
     image: "/images/project-1.png",
-    bio: "25 yıllık sektörel birikimiyle Saras İnşaat'ın vizyoner kurucusu."
+    bio: "25 yıllık sektörel birikimiyle Erkan İnşaat'ın vizyoner kurucusu."
   },
   {
-    name: "Murat Saras",
+    name: "Murat Erkan",
     role: "Genel Müdür Yardımcısı / Yüksek Mimar",
     image: "/images/project-2.png",
     bio: "Estetik ve çağdaş mimari akımların projelerimizdeki imzası."
@@ -85,7 +85,7 @@ export default function AboutContent() {
               <div className="relative aspect-[3/4] w-full overflow-hidden border border-stone-gray-dark/30 shadow-[0_8px_30px_rgba(0,0,0,0.03)]">
                 <Image
                   src="/images/about.png"
-                  alt="Saras İnşaat Kurumsal Yapı"
+                  alt="Erkan İnşaat Kurumsal Yapı"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-103"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -121,7 +121,7 @@ export default function AboutContent() {
               </div>
 
               <p className="text-muted-foreground font-sans text-base leading-relaxed">
-                1999 yılında İstanbul&apos;da kurulan Saras İnşaat, çeyrek asrı aşan tecrübesiyle Türkiye genelinde nitelikli konut, ticari yapılar, endüstriyel tesisler ve altyapı projeleri inşa etmektedir. &quot;Güven ve Mükemmellik&quot; ilkelerimizden taviz vermeden 180&apos;den fazla büyük ölçekli taahhüdü başarıyla tamamladık.
+                1999 yılında kurulmuş olan Erkan İnşaat, çeyrek asrı aşan tecrübesiyle Türkiye genelinde nitelikli konut, ticari yapılar, endüstriyel tesisler ve altyapı projeleri inşa etmektedir. &quot;Güven ve Mükemmellik&quot; ilkelerimizden taviz vermeden 180&apos;den fazla büyük ölçekli taahhüdü başarıyla tamamladık.
               </p>
 
               {/* Bullet checklist */}

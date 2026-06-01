@@ -22,7 +22,7 @@ export default function AboutSection() {
             <div className="relative aspect-[4/5] w-full overflow-hidden border border-stone-gray-dark/30 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <Image
                 src="/images/about.png"
-                alt="Saras İnşaat Mimari Yapı"
+                alt="Erkan İnşaat Mimari Yapı"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"

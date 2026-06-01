@@ -30,7 +30,7 @@ export default function WhyChooseUsSection() {
             </div>
             
             <p className="text-muted-foreground font-sans text-base leading-relaxed max-w-lg">
-              Saras İnşaat olarak, her projemizde taahhüt ettiğimiz güvence, kalite ve şeffaflığı tam olarak yansıtmak adına son teknoloji çözümler ve uzman kadromuzla yanınızdayız.
+              Erkan İnşaat olarak, her projemizde taahhüt ettiğimiz güvence, kalite ve şeffaflığı tam olarak yansıtmak adına son teknoloji çözümler ve uzman kadromuzla yanınızdayız.
             </p>
 
             {/* Featured Process Image */}

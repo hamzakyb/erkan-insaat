@@ -11,22 +11,22 @@ import BreadcrumbHeader from "@/components/breadcrumb-header";
 const branches = [
   {
     title: "Merkez Ofis",
-    phone: "+90 (212) 345 67 89",
-    mail: "info@sarasinsaat.com.tr",
+    phone: "+90 (352) 345 67 89",
+    mail: "info@erkaninsaat.com.tr",
     hours: "Pzt - Cmt 08:30 - 18:30",
-    address: "Yeni Mahalle, Taş Sokak, No: 20, Daire: 11, Silivri / İstanbul"
+    address: "Erenköy Mah. Gürle Cd. 1497.Sk, Talas, Kayseri 38030"
   },
   {
     title: "Ankara İrtibat Ofisi",
     phone: "+90 (312) 987 65 43",
-    mail: "ankara@sarasinsaat.com.tr",
+    mail: "ankara@erkaninsaat.com.tr",
     hours: "Pzt - Cum 09:00 - 18:00",
     address: "Mustafa Kemal Mahallesi, Dumlupınar Bulvarı, No: 274, C2 Blok 108 Numara, Ankara, Turkey"
   },
   {
     title: "İzmir Şantiye Ofisi",
     phone: "+90 (232) 555 44 33",
-    mail: "izmir@sarasinsaat.com.tr",
+    mail: "izmir@erkaninsaat.com.tr",
     hours: "Pzt - Cmt 08:00 - 18:00",
     address: "Bornova Cad. Sanayi Sitesi No:102 Bornova / İzmir"
   }
@@ -199,23 +199,23 @@ export default function ContactContent() {
               <div className="w-12 h-1 bg-burnt-orange relative z-10" />
 
               <div className="space-y-6 relative z-10 pt-4 font-heading">
-                <a href="tel:+902123456789" className="flex items-center gap-4 group">
+                <a href="tel:+903523456789" className="flex items-center gap-4 group">
                   <div className="w-11 h-11 bg-burnt-orange/15 text-burnt-orange flex items-center justify-center group-hover:bg-burnt-orange group-hover:text-white transition-all duration-350 shrink-0">
                     <Phone className="w-4.5 h-4.5" />
                   </div>
                   <div>
                     <span className="text-[10px] text-white/50 uppercase block font-sans tracking-wider">Telefon Hattı</span>
-                    <span className="text-sm font-black tracking-wider text-white">+90 (212) 345 67 89</span>
+                    <span className="text-sm font-black tracking-wider text-white">+90 (352) 345 67 89</span>
                   </div>
                 </a>
 
-                <a href="mailto:info@sarasinsaat.com.tr" className="flex items-center gap-4 group">
+                <a href="mailto:info@erkaninsaat.com.tr" className="flex items-center gap-4 group">
                   <div className="w-11 h-11 bg-burnt-orange/15 text-burnt-orange flex items-center justify-center group-hover:bg-burnt-orange group-hover:text-white transition-all duration-350 shrink-0">
                     <Mail className="w-4.5 h-4.5" />
                   </div>
                   <div>
                     <span className="text-[10px] text-white/50 uppercase block font-sans tracking-wider">E-posta</span>
-                    <span className="text-sm font-black tracking-wider text-white">info@sarasinsaat.com.tr</span>
+                    <span className="text-sm font-black tracking-wider text-white">info@erkaninsaat.com.tr</span>
                   </div>
                 </a>
               </div>
@@ -228,14 +228,14 @@ export default function ContactContent() {
       {/* Full-width Map Section */}
       <section className="h-[450px] w-full bg-stone-gray overflow-hidden relative border-t border-stone-gray-dark/35">
         <iframe
-          src="https://maps.google.com/maps?q=Mustafa%20Kemal%20Mahallesi%2C%20Dumlup%C4%B1nar%20Bulvar%C4%B1%20No%3A%20274%2C%20C2%20Blok%2C%20Ankara%2C%20Turkey&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=Erenk%C3%B6y%20Mahallesi%2C%20G%C3%BCrle%20Caddesi%201497.Sokak%2C%20Talas%2C%20Kayseri%2038030%2C%20Turkey&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Saras İnşaat Konum"
+          title="Erkan İnşaat Konum"
           className="absolute inset-0"
         />
       </section>

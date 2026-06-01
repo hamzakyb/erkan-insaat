@@ -40,7 +40,7 @@ export default function CallToActionSection() {
           >
             {/* Phone link block */}
             <a 
-              href="tel:+902123456789" 
+              href="tel:+903523456789" 
               className="w-full sm:w-auto flex items-center justify-center sm:justify-start gap-4 bg-navy-light border border-white/10 px-6 sm:px-8 py-5 group hover:border-burnt-orange transition-all duration-350"
             >
               <div className="w-12 h-12 bg-burnt-orange/15 text-burnt-orange flex items-center justify-center group-hover:bg-burnt-orange group-hover:text-white transition-all duration-350 shrink-0">
@@ -48,7 +48,7 @@ export default function CallToActionSection() {
               </div>
               <div className="text-left">
                 <span className="text-[10px] sm:text-xs text-white/60 block uppercase font-sans tracking-wider leading-none mb-1.5">Müşteri Hattı</span>
-                <span className="text-base sm:text-lg font-black tracking-wider text-white font-heading block leading-none">+90 (212) 345 67 89</span>
+                <span className="text-base sm:text-lg font-black tracking-wider text-white font-heading block leading-none">+90 (352) 345 67 89</span>
               </div>
             </a>
 

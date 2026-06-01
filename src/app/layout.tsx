@@ -19,14 +19,14 @@ const titilliumWeb = Titillium_Web({
 
 export const metadata: Metadata = {
   title: {
-    default: "Saras İnşaat | Güvenin Temeli",
-    template: "%s | Saras İnşaat",
+    default: "Erkan İnşaat | Güvenin Temeli",
+    template: "%s | Erkan İnşaat",
   },
   description:
     "25 yılı aşkın tecrübesiyle Türkiye'nin önde gelen inşaat firmalarından biri. Konut, ticari ve altyapı projelerinde güvenilir çözüm ortağınız.",
   keywords: [
     "inşaat",
-    "Saras İnşaat",
+    "Erkan İnşaat",
     "müteahhit",
     "konut projesi",
     "ticari yapı",

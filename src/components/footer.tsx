@@ -19,7 +19,7 @@ export default function Footer() {
               <div className="w-14 h-14 bg-white/5 border border-white/10 flex items-center justify-center rounded-none p-1.5 shadow-md shrink-0">
                 <Image 
                   src="/images/logo-black.png" 
-                  alt="Saras İnşaat | Otomotiv" 
+                  alt="Erkan İnşaat" 
                   width={48} 
                   height={48} 
                   className="object-contain" 
@@ -27,10 +27,10 @@ export default function Footer() {
               </div>
               <div className="font-heading">
                 <span className="text-2xl font-black tracking-tight block leading-none text-white">
-                  SARAS
+                  ERKAN
                 </span>
                 <span className="text-[9px] font-black tracking-[0.18em] text-white/50 uppercase mt-1.5 block">
-                  İNŞAAT | OTOMOTİV
+                  İNŞAAT
                 </span>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Footer() {
               <a href="#" className="w-9 h-9 bg-white/5 hover:bg-burnt-orange hover:text-white transition-all duration-300 flex items-center justify-center text-white/80" aria-label="Facebook">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
               </a>
-              <a href="https://www.instagram.com/saras.insaat/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/5 hover:bg-burnt-orange hover:text-white transition-all duration-300 flex items-center justify-center text-white/80" aria-label="Instagram">
+              <a href="https://www.instagram.com/erkan.insaat/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/5 hover:bg-burnt-orange hover:text-white transition-all duration-300 flex items-center justify-center text-white/80" aria-label="Instagram">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
               </a>
               <a href="#" className="w-9 h-9 bg-white/5 hover:bg-burnt-orange hover:text-white transition-all duration-300 flex items-center justify-center text-white/80" aria-label="Linkedin">
@@ -102,19 +102,19 @@ export default function Footer() {
               <li className="flex items-start gap-3.5">
                 <MapPin className="w-5 h-5 text-burnt-orange mt-0.5 shrink-0" />
                 <span className="text-white/60 leading-relaxed">
-                  Mustafa Kemal Mahallesi, Dumlupınar Bulvarı, No: 274, C2 Blok 108 Numara, Ankara, Turkey
+                  Erenköy Mah. Gürle Cd. 1497.Sk, Talas, Kayseri 38030
                 </span>
               </li>
               <li className="flex items-center gap-3.5">
                 <Phone className="w-5 h-5 text-burnt-orange shrink-0" />
-                <a href="tel:+902123456789" className="text-white/60 hover:text-burnt-orange transition-colors">
-                  +90 (212) 345 67 89
+                <a href="tel:+903523456789" className="text-white/60 hover:text-burnt-orange transition-colors">
+                  +90 (352) 345 67 89
                 </a>
               </li>
               <li className="flex items-center gap-3.5">
                 <Mail className="w-5 h-5 text-burnt-orange shrink-0" />
-                <a href="mailto:info@sarasinsaat.com.tr" className="text-white/60 hover:text-burnt-orange transition-colors">
-                  info@sarasinsaat.com.tr
+                <a href="mailto:info@erkaninsaat.com.tr" className="text-white/60 hover:text-burnt-orange transition-colors">
+                  info@erkaninsaat.com.tr
                 </a>
               </li>
             </ul>
@@ -127,7 +127,7 @@ export default function Footer() {
       <div className="border-t border-white/10 relative z-10 bg-black/10 font-sans text-xs">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/40">
-            © {new Date().getFullYear()} Saras İnşaat. Tüm Hakları Saklıdır.
+            © {new Date().getFullYear()} Erkan İnşaat. Tüm Hakları Saklıdır.
           </p>
           <div className="flex items-center gap-6 text-white/40">
             <Link href="#" className="hover:text-white transition-colors">Gizlilik Politikası</Link>

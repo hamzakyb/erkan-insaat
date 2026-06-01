@@ -4,7 +4,7 @@ import AboutContent from "./about-content";
 export const metadata: Metadata = {
   title: "Hakkımızda",
   description:
-    "Saras İnşaat, 25 yılı aşkın tecrübesiyle Türkiye'nin önde gelen inşaat firmalarından biridir.",
+    "Erkan İnşaat, 25 yılı aşkın tecrübesiyle Türkiye'nin önde gelen inşaat firmalarından biridir.",
 };
 
 export default function HakkimizdaPage() {

@@ -172,7 +172,7 @@ export default async function ServiceDetailsPage({ params }: PageProps) {
                 <div className="w-12 h-1 bg-burnt-orange relative z-10" />
 
                 <a
-                  href="tel:+902123456789"
+                  href="tel:+903523456789"
                   className="flex items-center gap-3.5 pt-4 group relative z-10"
                 >
                   <div className="w-11 h-11 bg-burnt-orange/15 text-burnt-orange flex items-center justify-center group-hover:bg-burnt-orange group-hover:text-white transition-all duration-350 shrink-0">
@@ -180,7 +180,7 @@ export default async function ServiceDetailsPage({ params }: PageProps) {
                   </div>
                   <div>
                     <span className="text-[10px] text-white/50 uppercase block font-sans tracking-wider">Hemen Arayın</span>
-                    <span className="text-base font-black tracking-wider text-white font-heading">+90 (212) 345 67 89</span>
+                    <span className="text-base font-black tracking-wider text-white font-heading">+90 (352) 345 67 89</span>
                   </div>
                 </a>
               </div>

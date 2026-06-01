@@ -40,17 +40,17 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 h-full flex items-center justify-between font-sans">
           {/* Left Info: Contact details */}
           <div className="flex items-center gap-6">
-            <a href="tel:+903129876543" className="flex items-center gap-2 hover:text-burnt-orange transition-colors">
+            <a href="tel:+903523456789" className="flex items-center gap-2 hover:text-burnt-orange transition-colors">
               <Phone className="w-3.5 h-3.5 text-burnt-orange" />
-              <span>+90 (312) 987 65 43</span>
+              <span>+90 (352) 345 67 89</span>
             </a>
-            <a href="mailto:info@sarasinsaat.com.tr" className="flex items-center gap-2 hover:text-burnt-orange transition-colors">
+            <a href="mailto:info@erkaninsaat.com.tr" className="flex items-center gap-2 hover:text-burnt-orange transition-colors">
               <Mail className="w-3.5 h-3.5 text-burnt-orange" />
-              <span>info@sarasinsaat.com.tr</span>
+              <span>info@erkaninsaat.com.tr</span>
             </a>
             <div className="flex items-center gap-2 text-white/80">
               <MapPin className="w-3.5 h-3.5 text-burnt-orange" />
-              <span>Ankara, Türkiye</span>
+              <span>Kayseri, Türkiye</span>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ export default function Navbar() {
               <a href="#" className="hover:text-burnt-orange transition-colors" aria-label="Facebook">
                 <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
               </a>
-              <a href="https://www.instagram.com/saras.insaat/" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/erkan.insaat/" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange transition-colors" aria-label="Instagram">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
               </a>
               <a href="#" className="hover:text-burnt-orange transition-colors" aria-label="Linkedin">
@@ -96,7 +96,7 @@ export default function Navbar() {
               <div className="w-14 h-14 bg-navy flex items-center justify-center group-hover:bg-burnt-orange transition-colors duration-500 rounded-none p-1.5 shadow-md shrink-0 border border-white/5">
                 <Image 
                   src="/images/logo-black.png" 
-                  alt="Saras İnşaat | Otomotiv" 
+                  alt="Erkan İnşaat" 
                   width={48} 
                   height={48} 
                   className="object-contain" 
@@ -104,10 +104,10 @@ export default function Navbar() {
               </div>
               <div className="font-heading">
                 <span className="text-2xl font-black tracking-tight text-white block leading-none">
-                  SARAS
+                  ERKAN
                 </span>
                 <span className="text-[9px] font-bold tracking-[0.18em] text-white/60 uppercase mt-1.5 block">
-                  İNŞAAT | OTOMOTİV
+                  İNŞAAT
                 </span>
               </div>
             </Link>
