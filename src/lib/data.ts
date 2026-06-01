@@ -12,6 +12,24 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Aden Villaları",
+    location: "Talas, Kayseri",
+    category: "Konut",
+    image: "/images/aden-villa.jpg",
+    year: "2025",
+    description: "Kalitenin, tasarımın ve güvenin odak noktası. Talas'ta modern mimarisi, müstakil otoparkı ve konforlu detayları ile lüks villa yaşamı.",
+  },
+  {
+    id: 2,
+    title: "Beyazşehir Projesi",
+    location: "Melikgazi, Kayseri",
+    category: "Konut",
+    image: "/images/beyazsehir.jpg",
+    year: "2025",
+    description: "Bölgenin en lokasyonlu projesi. Toki Kavşağı tramvay durağı önü, pazar yeri ve aile sağlığı merkezine komşu 2+1 96 m² ultra lüks daireler.",
+  },
+  {
+    id: 3,
     title: "Erkan Towers Rezidans",
     location: "İstanbul, Ataşehir",
     category: "Konut",
@@ -20,7 +38,7 @@ export const projects: Project[] = [
     description: "22 katlı lüks rezidans projesi. 180 daire, fitness merkezi, yüzme havuzu ve çocuk oyun alanları ile donatılmıştır.",
   },
   {
-    id: 2,
+    id: 4,
     title: "Kristal AVM",
     location: "Ankara, Çankaya",
     category: "Ticari",
@@ -29,7 +47,7 @@ export const projects: Project[] = [
     description: "45.000 m² kapalı alana sahip, 120 mağaza kapasiteli modern alışveriş merkezi.",
   },
   {
-    id: 3,
+    id: 5,
     title: "Villa Serena Konutları",
     location: "Bodrum, Muğla",
     category: "Konut",
@@ -38,7 +56,7 @@ export const projects: Project[] = [
     description: "Ege kıyısında 12 adet lüks müstakil villa. Özel havuz, peyzaj ve akıllı ev sistemleri.",
   },
   {
-    id: 4,
+    id: 6,
     title: "Erkan Sağlık Kampüsü",
     location: "İzmir, Bornova",
     category: "Kamu",
@@ -47,7 +65,7 @@ export const projects: Project[] = [
     description: "500 yatak kapasiteli, son teknoloji tıbbi altyapıya sahip entegre sağlık kampüsü.",
   },
   {
-    id: 5,
+    id: 7,
     title: "Endüstri Park Lojistik",
     location: "Kocaeli, Gebze",
     category: "Endüstriyel",
@@ -56,7 +74,7 @@ export const projects: Project[] = [
     description: "30.000 m² çelik konstrüksiyon lojistik depo ve üretim tesisi.",
   },
   {
-    id: 6,
+    id: 8,
     title: "The Azure Otel & Spa",
     location: "Antalya, Kemer",
     category: "Turizm",
