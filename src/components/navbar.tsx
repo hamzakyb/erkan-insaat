@@ -65,7 +65,7 @@ export default function Navbar() {
               <a href="#" className="hover:text-burnt-orange transition-colors" aria-label="Facebook">
                 <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
               </a>
-              <a href="https://www.instagram.com/erkan.insaat/" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/erkann.insaat/" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange transition-colors" aria-label="Instagram">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
               </a>
               <a href="#" className="hover:text-burnt-orange transition-colors" aria-label="Linkedin">
