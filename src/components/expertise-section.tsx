@@ -38,9 +38,8 @@ export default function ExpertiseSection() {
   return (
     <section className="py-24 lg:py-32 bg-white relative overflow-hidden">
       {/* Decorative Line Details */}
-      <div className="absolute inset-y-0 left-1/4 w-px bg-stone-gray-dark/20 pointer-events-none hidden lg:block" />
-      <div className="absolute inset-y-0 left-2/4 w-px bg-stone-gray-dark/20 pointer-events-none hidden lg:block" />
-      <div className="absolute inset-y-0 left-3/4 w-px bg-stone-gray-dark/20 pointer-events-none hidden lg:block" />
+      <div className="absolute inset-y-0 left-1/3 w-px bg-stone-gray-dark/20 pointer-events-none hidden lg:block" />
+      <div className="absolute inset-y-0 left-2/3 w-px bg-stone-gray-dark/20 pointer-events-none hidden lg:block" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         
@@ -67,7 +66,7 @@ export default function ExpertiseSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8"
         >
           {expertiseAreas.map((area, index) => {
             const Icon = iconMap[area.icon];

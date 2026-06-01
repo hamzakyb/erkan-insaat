@@ -171,31 +171,6 @@ export const expertiseAreas: ExpertiseArea[] = [
         answer: "Tüm çelik yapılarımız gelişmiş 3D sonlu elemanlar analiz programları (SAP2000 vb.) kullanılarak, ilgili bölgenin en yüksek sismik ve rüzgar yükü verilerine göre statik olarak projelendirilir."
       }
     ]
-  },
-  {
-    title: "Makine & Ekipman Kiralama",
-    slug: "makine-ekipman-kiralama",
-    description: "Kule vinç kiralama, hidrolik beton dağıtıcı ve sabit beton pompası ağır şantiye makinelerini 81 ilde kurulum ve operatör desteğiyle sunuyoruz.",
-    icon: "Wrench" as const,
-    imageUrl: "/images/project-5.png",
-    longDescription: "Erkan Group bünyesinde, inşaat ve altyapı projelerinin en kritik mekanik ihtiyaçlarından olan kule vinç, hidrolik beton dağıtıcı ve sabit beton pompası gibi ağır iş makinelerinin kiralama ve kurulum hizmetlerini sunuyoruz. Türkiye'nin 81 ilinde aktif lojistik ağımız, profesyonel operatör kadromuz ve 7/24 teknik bakım servisimiz ile projelerinize kesintisiz güç katıyoruz. Tüm filomuz düzenli olarak periyodik güvenlik denetimlerinden geçmekte, uluslararası standartlarda sertifikalı ekipmanlar ve yüksek tonaj kapasiteleriyle şantiyelerinizdeki verimliliği en üst seviyeye taşımaktadır.",
-    features: [
-      "Türkiye'nin 81 İlinde Aktif Kurulum ve Lojistik Hizmeti",
-      "Yüksek Tonajlı ve Çeşitli Yükseklik Kapasiteli Kule Vinç Filosu",
-      "Yüksek Katlı Yapılar İçin Profesyonel Hidrolik Beton Dağıtıcıları",
-      "Uzun Mesafe ve Güçlü Basınçlı Sabit Beton Pompaları",
-      "7/24 Yerinde Teknik Servis, Bakım ve Operatör Desteği"
-    ],
-    faqs: [
-      {
-        question: "Kiralama süresi ve kurulum lojistik süreçleri nasıl planlanıyor?",
-        answer: "Kiralama talepleriniz projenizin süresine göre aylık veya yıllık olarak planlanır. Kule vinç ve beton ekipmanlarımızın kurulum, nakliye, montaj ve demontaj işlemleri uzman teknik ekiplerimiz tarafından anahtar teslim olarak gerçekleştirilir."
-      },
-      {
-        question: "Ekipmanların periyodik bakımı ve arıza durumunda teknik servis desteği nasıl sağlanıyor?",
-        answer: "Kiraladığımız tüm ekipmanların periyodik bakımları Erkan teknik personeli tarafından sahada düzenli olarak yapılır. Olası arıza durumlarında, 81 ildeki teknik servis ağımız sayesinde en geç 24 saat içinde müdahale edilerek şantiyenizin iş kaybı yaşamasının önüne geçilir."
-      }
-    ]
   }
 ];
 
