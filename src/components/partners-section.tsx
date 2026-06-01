@@ -11,29 +11,20 @@ interface Partner {
 
 const partners: Partner[] = [
   {
-    name: "Faras İnşaat",
-    type: "Ana İş Ortağı",
-    image: "/images/faras-logo.jpg"
+    name: "Erciyes Anadolu",
+    type: "Stratejik İş Ortağı"
   },
   {
-    name: "Aras Grup",
-    type: "Stratejik İş Ortağı",
-    image: "/images/aras-logo.png"
+    name: "Kayseri Şeker",
+    type: "Endüstriyel Yapı Ortağı"
   },
   {
-    name: "Arissa İnşaat",
-    type: "Altyapı & Taahhüt",
-    image: "/images/arissa-logo.png"
+    name: "Turkuaz Seramik",
+    type: "İnşaat Malzemeleri"
   },
   {
-    name: "TAV Airports",
-    type: "Altyapı & Havalimanı",
-    image: "/images/tav-logo.jpg"
-  },
-  {
-    name: "Dema Konut",
-    type: "Konut Geliştirme",
-    image: "/images/dema-logo.jpg"
+    name: "Hasçelik",
+    type: "Endüstriyel Çelik & Enerji"
   },
   {
     name: "Votorantim Cimentos",
@@ -41,19 +32,20 @@ const partners: Partner[] = [
     image: "/images/votorantim-logo.png"
   },
   {
-    name: "Kandemir Beton",
-    type: "Hazır Beton & Altyapı",
-    image: "/images/kandemir-logo.png"
+    name: "Kayseri Ulaşım",
+    type: "Altyapı & Raylı Sistem"
   },
   {
-    name: "May İnşaat",
-    type: "Endüstriyel Yapı",
-    image: "/images/may-logo.jpg"
+    name: "Kayserigaz",
+    type: "Altyapı & Enerji"
   },
   {
-    name: "Fırat Life Style",
-    type: "Konut & Yaşam",
-    image: "/images/firat-logo.jpg"
+    name: "Mega Metal",
+    type: "Sanayi & Bakır Filaman"
+  },
+  {
+    name: "Yataş Grup",
+    type: "Donatı & Mobilya Tasarım"
   }
 ];
 
@@ -92,21 +84,27 @@ export default function PartnersSection() {
               key={index}
               className="w-72 bg-navy border border-white/10 hover:border-burnt-orange/50 p-6 h-48 flex flex-col items-center justify-center relative overflow-hidden group select-none shadow-[0_15px_45px_rgba(0,0,0,0.12)] hover:shadow-[0_25px_65px_rgba(21,22,28,0.35)] hover:-translate-y-2.5 transition-all duration-500 rounded-2xl border-b-4 border-b-white/5 hover:border-b-burnt-orange shrink-0 cursor-pointer"
             >
-              {partner.image ? (
-                // Premium White Badge for Image Logos (Fits perfectly, no overflow)
-                <div className="bg-white/95 w-48 h-16 flex items-center justify-center p-3.5 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-white/20 group-hover:scale-105 group-hover:bg-white transition-all duration-500 mb-4 z-10">
+              {/* Premium White Badge for Image or Styled Typography Logos */}
+              <div className="bg-white/95 w-48 h-16 flex flex-col items-center justify-center p-3.5 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-white/20 group-hover:scale-105 group-hover:bg-white transition-all duration-500 mb-4 z-10 select-none">
+                {partner.image ? (
                   <img
                     src={partner.image}
                     alt={partner.name}
                     className="max-w-full max-h-full object-contain transition-all duration-300"
                   />
-                </div>
-              ) : (
-                // Vector Graphic Logo (Large scale centered with a gold theme)
-                <div className="text-burnt-orange/55 group-hover:text-burnt-orange group-hover:scale-110 transition-all duration-500 mb-4 shrink-0 z-10">
-                  {partner.svg}
-                </div>
-              )}
+                ) : (
+                  <div className="text-center font-heading leading-tight">
+                    <span className="text-navy text-sm font-black tracking-tight uppercase">
+                      {partner.name.split(" ")[0]}
+                    </span>
+                    {partner.name.split(" ").slice(1).join(" ") && (
+                      <span className="text-burnt-orange text-[8px] font-black tracking-[0.15em] block uppercase mt-0.5">
+                        {partner.name.split(" ").slice(1).join(" ")}
+                      </span>
+                    )}
+                  </div>
+                )}
+              </div>
 
               {/* Text Information (Always readable in normal flow) */}
               <div className="z-10 text-center">
